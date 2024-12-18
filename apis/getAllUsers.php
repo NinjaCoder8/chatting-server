@@ -17,7 +17,6 @@ while ($user = $array->fetch_assoc()){
     $array_response[] = $user;
 }
 
-$json_response = json_encode($array_response);
-echo $json_response;
+echo json_encode($array_response);
 
 ?>
